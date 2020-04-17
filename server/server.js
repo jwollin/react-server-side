@@ -3,7 +3,7 @@ import path from 'path';
 import express from 'express';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-import {App} from "../src/app";
+import { App } from "../src/app";
 
 const app = express();
 const PORT = 3000;

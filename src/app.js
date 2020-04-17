@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export const App = () => {
-	const [show, setShow] = useState(false)
+	const [show, setShow] = useState(false);
     return (
         <div>
             <h1>Hello World</h1>
