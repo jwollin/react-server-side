@@ -1,0 +1,35 @@
+{
+  "name": "webpack-learnins",
+  "version": "1.0.0",
+  "description": "learning webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js",
+    "server": "webpack --config webpack.config.server.js",
+    "dev": "webpack --config webpack.config.dev.js",
+    "init": "npm run server && npm run dev && node ./dist/server.js"
+  },
+  "resository": "https://github.com/jwollin/react-server-side.git",
+  "author": "Jesse Wollin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-register": "^6.26.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
